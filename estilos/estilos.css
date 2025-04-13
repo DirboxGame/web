@@ -1,0 +1,298 @@
+body {
+            background-color: #0a0a23;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #002f6c;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .logo {
+            width: 100px;
+            height: auto;
+            margin-right: 15px;
+            filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.5));
+        }
+        .header-text {
+            text-align: center;
+        }
+        h1 {
+            color: #ffcc00;
+            font-size: 2.5em;
+            font-weight: 700;
+            margin: 0;
+        }
+        .eslogan {
+            font-family: 'Dancing Script', cursive;
+            font-style: italic;
+            font-size: 1.5em;
+            color: #ffcc00;
+            margin-top: 5px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: 400;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+            background: #004080;
+            color: #fff;
+            font-size: 1.1em;
+        }
+        table, th, td {
+            border: 1px solid #fff;
+            padding: 10px;
+        }
+        th {
+            background-color: #002f6c;
+        }
+        footer {
+            background: #002f6c;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            font-weight: 300;
+        }
+        .combos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            background: #004080;
+            color: #fff;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+            flex: 0 0 calc(25% - 20px);
+            box-sizing: border-box;
+            min-width: 250px;
+
+        }
+        .cardo {
+    background: #004080;
+    color: white;
+    width: 90%; /* Ajusta el tamaño al contenido */
+    max-width: 400px; /* No muy grande */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    word-wrap: break-word; /* Evita que el texto se desborde */
+}
+
+/* Ajuste de imagen */
+.cardo img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Títulos */
+.cardo h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin: 10px 0;
+}
+
+/* Texto */
+.cardo p {
+    font-size: 14px;
+    color: #fff;
+    text-align: justify;
+}
+
+/* Video */
+.cardo video {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+        #combos h2 {
+            text-align: center;
+        }
+         .carrusel {
+        position: relative;
+        width: 80%;
+        margin: 20px auto;
+        overflow: hidden;
+    }
+
+    .carousel-container {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .carousel-slide {
+        display: flex;
+    }
+
+    .carousel-slide img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+    }
+
+    /* Estilos para los botones de navegación */
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        font-size: 30px;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .prev {
+        left: 10px;
+    }
+
+    .next {
+        right: 10px;
+    }
+    .promo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    margin: 20px auto;
+    max-width: 800px;
+    color: white;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.promo-video video {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.promo-info {
+    margin-left: 20px;
+    max-width: 400px;
+}
+
+.promo-info img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.promo-info h2 {
+    font-size: 20px;
+    color: #ffcc00; /* Amarillo */
+}
+
+.promo-info p {
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+}
+ background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#cartelera {
+    text-align: center;
+    padding: 20px;
+}
+
+.pelicula {
+    display: inline-block;
+    width: 280px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.pelicula img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.pelicula video {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.pelicula p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+h2 {
+    background-color: #002f6c;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+h3 {
+    color: #FFD700;
+}
+img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .combos {
+            display: flex;
+            flex-wrap: wrap; /* Permite que los combos se ajusten en varias filas si no caben en una */
+            gap: 20px;
+            justify-content: center; /* Centra los elementos en la pantalla */
+        }
+
+        .card {
+            width: 250px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .card img {
+            max-width: 200px;
+            height: auto;
+            border-radius: 5px;
+        }
